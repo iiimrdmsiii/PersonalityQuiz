@@ -46,5 +46,25 @@ enum AnimalType: Character {
 }
 
 var questions: [Question] = [
-    Question(text: "", type: <#T##ResponseType#>, answers: <#T##[Answer]#>)
+    Question(text: "What type of food do you like?", type: .single, answers: [
+            Answer(text: "Steak", type: .cow),
+            Answer(text: "Carrots", type: .rabbit),
+            Answer(text: "Banana", type: .gorilla),
+            Answer(text: "All Type Of Food", type: .monkey)
+        ]),
+        
+    Question(text: "Which activites do you enjoy?", type: .multiple, answers: [
+            Answer(text: "Eating", type: .cow),
+            Answer(text: "Running", type: .rabbit),
+            Answer(text: "Lifting", type: .gorilla),
+            Answer(text: "Chilling", type: .monkey)
+            ]),
+        
+    Question(text: "How much do you enjoy car rides?", type: .ranged, answers: [
+            Answer(text: "I hate it!", type: .cow),
+            Answer(text: "I get a little nervous.", type: .rabbit),
+            Answer(text: "I beraly notice them.", type: .gorilla),
+            Answer(text: "I love it and want to do it again!", type: .monkey)
+            ])
+    
 ]
