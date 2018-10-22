@@ -16,7 +16,7 @@
 		F5ECD816216FA59600BD2F79 /* PersonalityQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ECD815216FA59600BD2F79 /* PersonalityQuizUITests.swift */; };
 		F5ECD8242174D44E00BD2F79 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ECD8232174D44E00BD2F79 /* QuestionViewController.swift */; };
 		F5ECD8262174D46F00BD2F79 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ECD8252174D46F00BD2F79 /* ResultsViewController.swift */; };
-		F5ECD8282174E56000BD2F79 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ECD8272174E56000BD2F79 /* File.swift */; };
+		F5ECD8282174E56000BD2F79 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ECD8272174E56000BD2F79 /* Questions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		F5ECD817216FA59600BD2F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5ECD8232174D44E00BD2F79 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		F5ECD8252174D46F00BD2F79 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
-		F5ECD8272174E56000BD2F79 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		F5ECD8272174E56000BD2F79 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +105,10 @@
 			children = (
 				F5ECD7F5216FA59400BD2F79 /* AppDelegate.swift */,
 				F5ECD7F9216FA59400BD2F79 /* Main.storyboard */,
-				F5ECD8272174E56000BD2F79 /* File.swift */,
-				F5ECD7F7216FA59400BD2F79 /* IntroductionViewController.swift */,
+				F5ECD8272174E56000BD2F79 /* Questions.swift */,
 				F5ECD8232174D44E00BD2F79 /* QuestionViewController.swift */,
 				F5ECD8252174D46F00BD2F79 /* ResultsViewController.swift */,
+				F5ECD7F7216FA59400BD2F79 /* IntroductionViewController.swift */,
 				F5ECD7FC216FA59500BD2F79 /* Assets.xcassets */,
 				F5ECD7FE216FA59500BD2F79 /* LaunchScreen.storyboard */,
 				F5ECD801216FA59500BD2F79 /* Info.plist */,
@@ -265,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5ECD8282174E56000BD2F79 /* File.swift in Sources */,
+				F5ECD8282174E56000BD2F79 /* Questions.swift in Sources */,
 				F5ECD7F8216FA59400BD2F79 /* IntroductionViewController.swift in Sources */,
 				F5ECD7F6216FA59400BD2F79 /* AppDelegate.swift in Sources */,
 				F5ECD8242174D44E00BD2F79 /* QuestionViewController.swift in Sources */,
